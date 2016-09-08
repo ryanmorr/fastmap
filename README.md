@@ -1,5 +1,7 @@
 # fastmap
 
+[![GitHub version](https://badge.fury.io/gh/ryanmorr%2Ffastmap.svg)](https://badge.fury.io/gh/ryanmorr%2Ffastmap) [![Build Status](https://travis-ci.org/ryanmorr/fastmap.svg)](https://travis-ci.org/ryanmorr/fastmap) ![Size](https://badge-size.herokuapp.com/ryanmorr/fastmap/master/src/fastmap.js.svg?color=blue&label=file%20size)
+
 > Accelerated hash maps
 
 Creates an efficient key/value store by instantiating a constructor function with an empty prototype. This is much faster than using either an object literal (`{}`) or a "bare" empty object (`Object.create(null)`), making it the superior alternative for hash maps in memory intensive tasks. Full credit to [Node.js](https://github.com/nodejs/node/blob/983775d457a8022c271488a9eaac56caf8944aed/lib/events.js#L5) for the technique.

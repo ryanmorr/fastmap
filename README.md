@@ -1,6 +1,10 @@
 # fastmap
 
-[![GitHub version](https://badge.fury.io/gh/ryanmorr%2Ffastmap.svg)](https://badge.fury.io/gh/ryanmorr%2Ffastmap) [![Build Status](https://travis-ci.org/ryanmorr/fastmap.svg)](https://travis-ci.org/ryanmorr/fastmap) ![Size](https://badge-size.herokuapp.com/ryanmorr/fastmap/master/src/fastmap.js.svg?color=blue&label=file%20size)
+[![Version Badge][version-image]][project-url]
+[![Build Status][build-image]][build-url]
+[![Dependencies][dependencies-image]][project-url]
+[![License][license-image]][license-url]
+[![File Size][file-size-image]][project-url]
 
 > Accelerated hash maps
 
@@ -65,3 +69,12 @@ gulp test
 ## License
 
 This project is dedicated to the public domain as described by the [Unlicense](http://unlicense.org/).
+
+[project-url]: https://github.com/ryanmorr/fastmap
+[version-image]: https://badge.fury.io/gh/ryanmorr%2Ffastmap.svg
+[build-url]: https://travis-ci.org/ryanmorr/fastmap
+[build-image]: https://travis-ci.org/ryanmorr/fastmap.svg
+[dependencies-image]: https://david-dm.org/ryanmorr/fastmap.svg
+[license-image]: https://img.shields.io/badge/license-Unlicense-blue.svg
+[license-url]: UNLICENSE
+[file-size-image]: https://badge-size.herokuapp.com/ryanmorr/fastmap/master/dist/fastmap.min.js.svg?color=blue&label=file%20size

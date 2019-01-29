@@ -17,11 +17,7 @@ EmptyObject.prototype = Object.create(null);
 export default function fastmap(...props) {
     const map = new EmptyObject();
     if (props.length) {
-        props.forEach((object) => {
-            for (const key in object) {
-                map[key] = object[key];
-            }
-        });
+        Object.assign(map, ...props);
     }
     return map;
 }

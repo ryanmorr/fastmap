@@ -1,2 +1,2 @@
-/*! @ryanmorr/fastmap v1.0.0 | https://github.com/ryanmorr/fastmap */
-!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):(e="undefined"!=typeof globalThis?globalThis:e||self).fastmap=t()}(this,(function(){"use strict";function e(){}return e.prototype=Object.create(null),function(t){const n=new e;return t.length&&Object.assign(n,t),n}}));
+/*! @ryanmorr/fastmap v1.0.1 | https://github.com/ryanmorr/fastmap */
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):(e="undefined"!=typeof globalThis?globalThis:e||self).fastmap=t()}(this,(function(){"use strict";function e(){}return e.prototype=Object.create(null),function(t){const n=new e;return t&&Object.assign(n,t),n}}));

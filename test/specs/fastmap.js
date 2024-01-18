@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import fastmap from '../src/fastmap';
+import fastmap from '../../src/fastmap.js';
 
 describe('fastmap', () => {
     it('should be an object', () => {
